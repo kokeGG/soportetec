@@ -1,0 +1,9 @@
+.reportes {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.contenedor {
+    
+    margin-top: 1px !important;
+}

@@ -1,0 +1,117 @@
+.containerResponsables {
+    width: 70rem;
+    height: 33.2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 18px 18px 20px 0px rgba(0, 0, 0, 0.342);
+    background: #3879f1be;
+    text-align: center;
+}
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button, .seleccionar, .buscar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    color: white;
+}
+.filtrar {
+    display: flex;
+    justify-content: space-between;
+}
+.table {
+    border: 1px white solid;
+    
+}
+.tableContainer {
+    height: 23.2rem;
+}
+thead th {
+    border: 2px solid rgb(0, 0, 0);
+}
+tbody td {
+    border: 2px solid #000000;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 70px 70px 70px;
+    column-gap: 10px;
+}
+.row > div > input {
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    border: none;
+    width: 195px;
+}
+.row > div > select {
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    border: none;
+}
+.ap input,
+.apm input,
+.nombre input,
+.telefono input,
+.correo input,
+.usuario input,
+.contra input,
+.colum input,
+.ubica input {
+    margin-top: 11px;
+    font-size: 20px;
+    padding: auto;
+}
+.genero > select {
+    padding: auto;
+    font-size: 20px;
+}
+.fechaNacimiento > input {
+    padding: auto;
+    font-size: 20px;
+}
+.fechaNacimiento, 
+.genero, 
+.correo,
+.apm,
+.nombre,
+.telefono,
+.ap,
+.contra {
+    display: grid;
+}
+.colum, .usuario, .ubica {
+    display: flex;
+    flex-direction: column;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28rem;
+}
+
+.modalStyles div {
+    background-color: #007bff;
+    color: white;
+    width: auto;
+    border-radius: 5px;
+}
+.botones {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    column-gap: 10px;
+}
