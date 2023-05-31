@@ -17,7 +17,7 @@ const FormLogin = () => {
   }, []);
   const handleSubmit = ({ values }) => {
     const { user, password } = values;
-    if (user === "Alex" && password === "123456") {
+    if (user === "Koke" && password === "123456") {
       setIsNotAdmin(false);
       setIsLogged(true);
       setUser(values.user);
